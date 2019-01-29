@@ -1,2 +1,3 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view>这是Home页面</view>
+<my-component innerText="这是home组件传的值"bind:myEvent="onMyEvent" ></my-component>

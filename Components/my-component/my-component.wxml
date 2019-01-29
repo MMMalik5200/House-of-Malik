@@ -1,0 +1,5 @@
+<!--Components/my-component/my-component.wxml-->
+<text>这是my-component组件---{{innerText}}</text>
+<button bindtap='test'>btn</button>
+
+
