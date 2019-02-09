@@ -1,0 +1,15 @@
+<!-- pages/food/food.wxml -->
+<view wx:if='{{menuList.length > 0}}'>
+  <view class='food-classify-box' wx:for='{{menuList}}' wx:key='{{item._id}}'>
+      <view class='food-title'>{{ item.title }}</view>
+      <view class='food-list-box'>
+          <view class='food-item' wx:for='{{ item.list }}' wx:for-item='subItem' wx:key='{{subItem._id }}'>
+          <navigator url='../food-details/food-details?id={{subItem._id}}' >
+            <image class="food-image" src='{{ host + subItem.img_url}}'></image>
+          </navigator>
+              <view class='food-name'>{{ subItem.title }}</view>
+              <view class='food-price'>￥{{ subItem.price }}</view>
+          </view>
+      </view>
+  </view>
+</view>
