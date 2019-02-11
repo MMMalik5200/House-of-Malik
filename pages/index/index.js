@@ -50,5 +50,8 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+    getPhoneNumber(e) {
+        console.log(e)
+    }
 })

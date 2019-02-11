@@ -7,8 +7,10 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+    <!-- <button open-type='getPhoneNumber' bindgetphonenumber='getPhoneNumber'>获取手机号码</button> -->
   <!-- <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view> -->
   <navigator url='../home/home'>go to home</navigator>
 </view>
+

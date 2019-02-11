@@ -1,0 +1,13 @@
+/* pages/views/views.wxss */
+.scroll-style {
+    background-color: #ddd;
+    height: 2000rpx;
+}
+
+.swiper-box {
+    background-color: #ddd;
+}
+
+.swiper-item {
+    
+}

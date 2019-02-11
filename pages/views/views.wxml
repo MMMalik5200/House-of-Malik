@@ -1,0 +1,6 @@
+<swiper indicator-dots indicator-color='blue' indicator-active-color='red' autoplay='true' interval='2000' class='swiper-box'>
+    <swiper-item class='swiper-item'>31231</swiper-item>
+    <swiper-item class='swiper-item'>31231</swiper-item>
+    <swiper-item class='swiper-item'>31231</swiper-item>
+    <swiper-item class='swiper-item'>31231</swiper-item>
+</swiper>
