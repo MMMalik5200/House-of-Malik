@@ -1,5 +1,5 @@
 <view>
   <view class='food-title'>{{foodDetails.title }}</view>
-  <image src='{{ host + foodDetails.img_url }}'></image>
+  <image src='{{ host + foodDetails.img_url }}' wx:if='{{ foodDetails.img_url && foodDetails.img_url.length > 0}}'></image>
   <rich-text nodes='{{ foodDetails.content }}'></rich-text>
 </view>
